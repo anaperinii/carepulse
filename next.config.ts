@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-};
+    api: {
+      bodyParser: {
+        sizeLimit: '10mb', // Ajuste o limite conforme necessário
+      },
+    },
+  };
 
 export default nextConfig;
