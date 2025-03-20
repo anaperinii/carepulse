@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CarePulse 🖥️🏥
 
-## Getting Started
+**CarePulse** apresenta-se como um projeto referente à gestão hospitalar, projetada para agilizar o agendamento e gerenciamento de consultas tanto para pacientes quanto para administradores. Com foco em usabilidade e desempenho, o CarePulse utiliza as mais recentes tecnologias web para oferecer uma experiência imersiva ao usuário.
 
-First, run the development server:
+## Índice
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Funcionalidades](#funcionalidades)
+- [Dependências](#dependências)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Funcionalidades
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Gerenciamento de Pacientes**: Pacientes podem criar e gerenciar suas consultas com médicos.
+- **Gerenciamento de Administradores**: Administradores podem aceitar, reagendar e cancelar consultas.
+- **Estilo**: Utiliza Shad CN e Tailwind CSS para um design moderno e responsivo da interface do usuário.
+- **Banco de Dados**: O Appwrite é usado para gerenciamento de banco de dados e funcionalidades backend.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Dependências
 
-## Learn More
+- **Next.js**: Framework para React.
+- **React**: Biblioteca para construção de interfaces de usuário.
+- **Tailwind CSS**: Framework CSS para estilização.
+- **Appwrite**: Plataforma de backend como serviço, usada para gerenciamento de banco de dados e funcionalidades backend.
+- **Radix UI**: Conjunto de componentes acessíveis de interface de usuário.
+- **React Hook**: Biblioteca para gerenciamento de formulários.
+- **Zod**: Biblioteca para validação de schemas.
+- **TypeScript**: Adição de tipagem estática ao JavaScript, para um desenvolvimento mais seguro.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
